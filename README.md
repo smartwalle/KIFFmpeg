@@ -1,3 +1,6 @@
+# 说明
+FFmpeg 编译脚本来源于：[https://github.com/kewlbear/FFmpeg-iOS-build-script](https://github.com/kewlbear/FFmpeg-iOS-build-script)， 感谢原作者。
+
 # 安装
 pod 'KIFFmpeg'
 
