@@ -2,7 +2,7 @@
 
 # directories
 SOURCE="ffmpeg-3.0"
-FAT="FFmpeg-iOS"
+FAT="FFmpeg_iOS"
 
 SCRATCH="scratch"
 # must be an absolute path
