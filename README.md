@@ -1,3 +1,6 @@
+# 安装
+pod 'KIFFmpeg'
+
 # FFmpeg iOS build script
 
 [![Build Status](https://travis-ci.org/kewlbear/FFmpeg-iOS-build-script.svg?branch=master)](https://travis-ci.org/kewlbear/FFmpeg-iOS-build-script)

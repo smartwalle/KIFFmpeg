@@ -23,6 +23,7 @@
 #define AVUTIL_BLOWFISH_H
 
 #include <stdint.h>
+#include "version.h"
 
 /**
  * @defgroup lavu_blowfish Blowfish
