@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   
   s.ios.platform            = :ios, '7.0'
   s.ios.deployment_target   = '7.0'
-  s.ios.source_files        = 'include/ffmpeg/**/*.h'
-  s.ios.public_header_files = 'include/ffmpeg/**/*.h'
-  s.ios.preserve_paths      = 'lib/*.a'
-  s.ios.vendored_libraries  = 'lib/*.a'
+  s.ios.source_files        = 'FFmpeg-iOS/include/**/*.h'
+  s.ios.public_header_files = 'FFmpeg-iOS/include/**/*.h'
+  s.ios.preserve_paths      = 'FFmpeg-iOS/lib/*.a'
+  s.ios.vendored_libraries  = 'FFmpeg-iOS/lib/*.a'
 
   s.libraries = 'iconv', 'z', 'bz2'
   s.requires_arc = false
