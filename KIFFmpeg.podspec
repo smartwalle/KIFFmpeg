@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KIFFmpeg"
-  s.version      = "0.0.1"
+  s.version      = "3.0.0"
   s.summary      = "FFmpeg for iOS"
   s.description  = <<-DESC
                   FFmpeg for iOS.
