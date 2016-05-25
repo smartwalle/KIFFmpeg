@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KIFFmpeg"
-  s.version      = "2.8.2"
+  s.version      = "3.0.0"
   s.summary      = "FFmpeg for iOS"
   s.description  = <<-DESC
                   FFmpeg for iOS.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.preserve_paths      = 'FFmpeg-iOS/lib/*.a'
   s.ios.vendored_libraries  = 'FFmpeg-iOS/lib/*.a'
 
-  s.frameworks = 'AVFoundation', 'CoreMedia'
+  s.frameworks = 'AVFoundation', 'CoreMedia', 'VideoToolbox'
   s.libraries  = 'iconv', 'z', 'bz2'
   s.requires_arc = false
 end
