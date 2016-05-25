@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.ios.preserve_paths      = 'FFmpeg-iOS/lib/*.a'
   s.ios.vendored_libraries  = 'FFmpeg-iOS/lib/*.a'
 
-  s.libraries = 'libiconv', 'libz', 'libbz2'
+  s.libraries = 'iconv', 'z', 'bz2'
   s.requires_arc = false
 end
